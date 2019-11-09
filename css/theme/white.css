@@ -38,6 +38,17 @@ body {
 /*********************************************
  * HEADERS
  *********************************************/
+
+ .reveal tag {
+  background-color:rgba(71, 71, 71, 0.8);
+  color:#fff;
+  display:inline-block;
+  padding-left:8px;
+  padding-right:8px;
+  border-radius: 10px;
+  text-align:center;
+  line-height: 50px;
+ }
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -50,7 +61,7 @@ body {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: normal;
   text-shadow: none;
   word-wrap: break-word; }
 
